@@ -1,0 +1,70 @@
+.servicesContainer{
+    width: 90%;
+    margin: auto;
+    .tableContainer{
+        width: 100%;
+        text-align:center;
+        margin-bottom: 10px;
+        // display: flex;
+        flex-wrap: wrap;
+        
+        .dataService, .infoService{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            cursor: pointer;
+        }
+        .dataService{
+            margin-bottom: 10px;
+            height: 50px;
+            border-radius: 10px;
+            .item{
+                width: 16.7%;
+                display: flex;
+                background-color: #d4d5d7;
+                padding: 15px;
+                font-size: 1.5rem;
+                justify-content: center;
+                align-items: center;
+                border-right: 1px solid black;
+                text-overflow: ellipsis;
+            }
+        }
+
+        .infoService{
+            background: #968d7c;
+            p{
+                color: #fff;
+                height: 50px;
+                font-size: 1.3rem;
+            }
+            margin-bottom: 10px;
+        }
+    
+        .open{
+            height: 30px;
+            width: 100%;
+            background-color: rgb(213, 228, 6);
+        }
+        
+        .closed{
+            height: 30px;
+            width: 100%;
+            background-color: rgb(99, 165, 103);
+        }
+    
+        .link{
+            list-style: none;
+            text-decoration: none;
+        }
+    }
+    .buttonAdd{
+        width: 100px;
+        height: 50px;
+        font-size: 1.3rem;
+        background-color: #f0efeb;
+        float: right;
+        border: 1px solid #f0efeb;
+        border-radius: 5px;
+    }
+}

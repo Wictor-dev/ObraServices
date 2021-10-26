@@ -1,0 +1,78 @@
+.serviceContainer{
+    width: 90%;
+    margin: 100px auto;
+
+    button{
+        width: 90px;
+        height: 40px;
+        font-size: 1.3rem;
+        border-radius: 5px;
+    }
+
+    .formContainer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        background-color: #8B8989;
+        label{
+            font-size: 1.5rem;
+        }
+        .inputs{
+            flex-grow: 2;
+            display: flex;
+            margin: auto;
+            .areaInputs{
+                input{
+                    margin: 20px;
+                    height: 30px;
+                    border: 1px solid #fff;
+                    border-radius: 5px;
+                }
+                
+            }
+
+        }
+        
+        .buttonsForm{
+            margin: 10px;
+            .link{
+                text-decoration: none;
+                color: black;
+            }
+        }
+
+        .commentsForm{
+            margin: auto;
+            margin-top: 10px;
+            list-style: none;
+
+            div{
+                display: flex;
+
+                button{
+                    align-self: flex-start;
+                    width: 100px;
+                }
+                textarea{
+                    border-radius: 5px;
+                    resize: none;
+                    margin: auto;
+                }
+
+            }
+
+            .comments{
+                width: 90%;
+                display: block;
+                .mensagem{
+                    background-color: #fff;
+                    border-radius: 5px;
+                    margin: 10px 0 10px 0;
+                    height: 50px;
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.filterContainer{
+    width: 100%;
+    height: 50px;
+
+    .formFilter{
+        margin: auto;
+        width: 50%;
+        text-align: center;
+        .input, .button{
+            margin-right: 5px;
+            border-radius: 5px;
+            height: 30px;
+        }
+
+        .input{
+            width: 75%;
+        }
+        .button{
+            background-color: #32CD32;
+            border: 1px solid #228B22;
+        }
+    }
+}
