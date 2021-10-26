@@ -127,6 +127,7 @@ export default function Scripts({ services }:ServicesProps){
                 
             </div>
             <button onClick={changePage} className={styles.buttonAdd}>Criar</button>
+            {/* <a><Link to={'/servicos/criar'} className={styles.buttonAdd}>Criar</Link></a> */}
         </div>
     )
 }

@@ -90,8 +90,8 @@ export default function Service(props:any){
                         <input type='text' value={titulo} onChange={(e) => setTitulo(e.target.value)} />
                     </div>
                     <div className={styles.areaInputs}>
-                    <label>Orçamento</label>
-                    <input type='number' value={orcamento} onChange={(e) => setOrcamento(Number(e.target.value))} />
+                        <label>Orçamento</label>
+                        <input type='number' value={orcamento} onChange={(e) => setOrcamento(Number(e.target.value))} />
                     </div>
                     <div className={styles.areaInputs}>
                         <label>Descrição</label>
@@ -103,10 +103,10 @@ export default function Service(props:any){
                     </div>
                 </div>
                 <div className={styles.buttonsForm}>
-                    <button onClick={removeService} className={styles.buttonLeft}><Link to={'/'} className={styles.link}>Excluir</Link></button>
-                    <button onClick={alterService} className={styles.buttonLeft}><Link to={'/'} className={styles.link}>Editar</Link></button>
-                    <button onClick={concluir} className={styles.buttonRight}><Link to={'/'} className={styles.link}>Concluir</Link></button>
-                    <button onClick={cancelar} className={styles.buttonRight}><Link to={'/'} className={styles.link}>Cancelar</Link></button>
+                    <button onClick={removeService} className={styles.button}><Link to={'/'} className={styles.link}>Excluir</Link></button>
+                    <button onClick={alterService} className={styles.button}><Link to={'/'} className={styles.link}>Editar</Link></button>
+                    <button onClick={concluir} className={styles.button}><Link to={'/'} className={styles.link}>Concluir</Link></button>
+                    <button onClick={cancelar} className={styles.button}><Link to={'/'} className={styles.link}>Cancelar</Link></button>
 
                 </div>
                 <div className={styles.commentsForm}>
@@ -118,8 +118,8 @@ export default function Service(props:any){
                     <div className={styles.comments}>
                         {comentariosRender}
                     </div>
-
                 </div>
+                <button className={styles.button}><Link to={'/'} className={styles.link} >Voltar</Link></button>
             </form>
         </div>
 
